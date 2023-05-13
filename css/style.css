@@ -123,10 +123,7 @@ color: #FFFFFF !important;
     text-fill-color: transparent;*/
   }
 
-/*  ul li .btn:hover {
-    color:white !important;
-  } 
-*/
+
   .bgopacity{
 /*  background-color: #6108B4;*/
   background-color: #0B0B2F;
@@ -232,10 +229,10 @@ padding-bottom: 20px !important;
   width: 1514px;
 }
 
-.sensor-heading{
+/*.sensor-heading{
   padding-top: 350px;
 }
-
+*/
 .sensor-txt p{
   margin-bottom: 0px;
 }
@@ -333,13 +330,6 @@ color: #FFFFFF;
 
 
 /*-- ****Una solución smart e integral de todo el proceso de **** --*/
-.box4-heading{
-  padding-top: 250px;
-}
-.box4-img{
-  height: 700px;
-  width: auto;
-}
 
 .box4{
 /*  background: radial-gradient(59.93% 100% at 50% 0%, #17184F 0%, rgba(23, 24, 79, 0) 100%);*/
@@ -379,27 +369,27 @@ color: #FFFFFF !important;
 }
 
 /*********hover effect************/
-.hover01 .figure img {
+.figure-hover1 img {
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
-.hover01 .figure:hover img {
+.figure-hover1:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
 
-.hover2 .figure img {
+.figure-hover2 img {
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
-.hover2 .figure:hover img {
+.figure-hover2:hover img {
   opacity: .5;
 }
 
-.hover3 .figure:hover img {
+.figure-hover3:hover img {
   opacity: 1;
   -webkit-animation: flash 1.5s;
   animation: flash 1.5s;
@@ -432,12 +422,6 @@ color: #FFFFFF !important;
   cursor: pointer;
 }
 
-.todos-pikapa{
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-height: 688px;
-}
 
 
 
