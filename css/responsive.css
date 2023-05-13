@@ -1,0 +1,182 @@
+
+/*@media (min-width: 768px) and (max-width: 1199px) {}*/
+ @media (min-width: 1400px) and (max-width: 1920px) {
+
+
+ }
+
+@media (min-width: 768px) and (max-width: 1399px) {
+
+
+
+ }
+
+
+@media screen and (max-width: 1199px){
+
+}
+
+@media screen and (max-width: 991px){
+/*    .banner-content h1{
+    padding-top: 50px;
+    font-size: 60px;
+   }
+*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+/*   .phone-illustation h3{
+      padding-top: 70px;
+   }
+   .img-size{
+     max-width: 350px;
+   }*/
+
+   
+}
+
+@media screen and (max-width: 767px){
+    .logo a img{
+        width: 50%;
+    }
+    .banner-content h1{
+    font-size: 30px !important;
+    line-height: 37px;
+    padding-top: 4px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+}
+
+.banner-content .figure img{
+    height: 99%;
+}
+
+.underr1 img{
+    margin-left: 40px !important;
+    width: 30%;
+}
+
+
+
+
+.footer{
+    text-align: center;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+}
+.footer a{
+    text-align: center;
+    font-size: 9px !important;
+    font-weight: 500 !important;
+}
+
+
+.footer i{
+    size: 11px !important;
+}
+
+.footer .hello-sm{
+  font-size: 11px !important;
+}
+
+
+
+.Plataforma h2{
+    text-align: left;
+}
+/*
+.banner-imgg-bg{
+  display: none;
+  visibility: hidden;
+}
+
+
+.banner-imgg-sm{
+display: block;
+visibility: visible;
+}
+*/
+.beneficios-card .number img{
+  width: auto;
+  height: 130px;
+ 
+}
+.beneficios-card h3{
+   padding-top: 30px;
+ 
+}
+
+.panel h1{
+    font-size: 24px !important;
+}
+
+.big-data h3{
+    font-size: 16px;
+}
+
+.big-data .icon-4{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.tiempo-real-heading h1{
+    font-size: 30px !important;
+}
+
+
+
+.Plataforma h2{
+    padding-left: 20px !important;
+}
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 575px){
+.icon-4{
+    text-align: center;
+}
+
+.tiempo-real-card-2205{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tiempo-real-card-14{
+    margin-top: 20px;
+}
+
+.sensor-heading{
+  padding-top: 0px !important;
+  padding-left: 20px !important;
+}
+
+.box4-heading{
+  padding-top: 50px !important;
+}
+
+.box4-img{
+  height: 400px;
+  width: auto;
+}
+
+.sensor-heading{
+  padding-top: 0px;
+}
+
+
+
+
+}
+
+

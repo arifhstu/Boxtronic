@@ -1,0 +1,599 @@
+<?php include 'mail.php';?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Boxtronic</title>
+
+	<!-- Required meta tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" type="image/x-icon" href="./img/Group.png">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" type="text/css" href="fonts/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+	<!-- responsive CSS -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+     <!-- main js -->
+	<script src="js/main.js"></script>
+	<!-- google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Urbanist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- jquery cdn -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+</head>
+
+<body>
+ 
+<!-- header-section -->
+<section  class="header-section">
+	<div class="banner banner-imgg-bg" id="home">
+     
+		<!-- ********************************************* -->
+		<div  class="nav-section">
+			<nav id="site-header" class="navbar navbar-expand-md navbar-dark ml-auto">
+				<div class="container logo p-0">
+					<a href="" class="navbar-brand p-0" id="home">
+						<img src="img/logosss.png" alt="Logo" class="img-fluid" style="width: auto; height: 100px;">
+					</a>
+					<button class="navbar-toggler" data-target="#mynav" data-toggle="collapse">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="mynav">
+						<ul class="navbar-nav">
+							<li class="active pt-2"><a href="#Befeficios" class="nav-link">Befeficios</a></li>
+							<li class="pt-2"><a href="#Dashboard" class="nav-link">Dashboard</a></li>
+							<li class="pt-2"><a href="#Caracter" class="nav-link">Características</a></li>
+							<li class="pt-2"><a href="#Monitoreo" class="nav-link">Monitoreo</a></li>
+							<li class="pt-2"><a href="#Sensor" class="nav-link">Sensor</a></li>
+							<li class="pt-2"><a href="#Negocio" class="nav-link">Negocio</a></li>
+							<li class="pt-0"><a href="info@boxtronic.net" class="nav-link text-white">
+				 	        <button type="button" class="btn text-white" style="background: linear-gradient(90.3deg, #9E00FF -1.02%, #03A4D9 99.71%, #E5FF00 204.72%); mix-blend-mode: screen;border-radius: 11px; color: #FFFFFF !important; font-weight: 600;">Contacto</button>
+							</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="container">
+		    <div class="banner-content">
+			 	<div class="row ">
+			 	    <div class="col-md-4 col-10">
+			 	     	<div class="banner-text ">
+			 	     		<h1 class="text-white pl-4">Monitoreo <br> de<span class="color-txt1"> Residuos</span></h1>
+			 	     		<p class="pt-3">Boxtronic es una solución integral que utiliza sensores inalámbricos para medir y pronosticar el nivel de llenado de los contenedores de residuos, permitiendo crear un plan de recolección inteligente con horarios y rutas más eficientes. </p>
+			 	     	</div>
+			 	     	<!-- <div class="pt-3 Revolucionamos-btn">
+			 	     		<a  href="#" style="padding-right: 20px; text-decoration: none;">
+			 	     			<button type="button" class="btn btn-outline-light" >
+			 	     				<i class="fab fa-apple "></i> App Store
+			 	     			</button>
+			 	     		</a>
+				 	     	<a href="#">
+				 	     		<button type="button" class="btn btn-outline-light">
+				 	     			<i class="fab fa-google-play"></i> Play Store
+				 	     		</button>
+				 	     	</a>
+		 	 	     	</div> -->
+			 	    </div>
+			 	    <div class=" col-md-8 col-10 text-center figure">
+			 	     	<img src="img/trash-bings.png" alt="illustration" class="banner-imgg-sm img-fluid" id="move-image"> 
+			 	     	<!-- <img src="img/trash-bings-bg.png" alt="illustration" class="banner-imgg-bg img-fluid" id="move-image">  -->
+			 	    </div>
+			 	</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--***************plataforma***************-->
+<section class="Plataforma text-align-left" id="Befeficios">
+	<div class="container hover22 p-0">
+		<div class="text-center">
+			<h2 class="pb-4 Beneficios-heading" > Beneficios </h2>
+		</div>
+	 	<div class="row justify-content-evenly">
+	 		<!-- Plataforma-one -->
+	 	     <div class="col-md-4 col-9 Plataforma-card px-4 mt-3 text-justify figure icon-hover animate__animated animate__backInLeft animate__delay-1s">
+	 	     	<div class="text-center"><img src="img/b11.png" alt="#" class="img-fluid" style="width: 286.2px; height: 286.2px;"></div>
+	 	     	<h4 class="">Sustentabilidad</h4>
+	 	     	<p class=""><span class=""><img src="img/dot1.png" alt="" class="img-fluid"></span> Ciudades más limpias.</p>
+	 	     	<p class=""><span class=""><img src="img/dot1.png" alt="" class="img-fluid"></span> Mejor calidad de vida de los ciudadanos.</p>
+	 	     	<p class=""><span class=""><img src="img/dot1.png" alt="" class="img-fluid"></span> Menor impacto medioambiental.</p>
+	 	     	
+	 	     </div>
+              <!-- Plataforma-two -->
+	 	     <div class="col-md-4 col-9 Plataforma-card Plataforma-card2 px-4 text-justify figure icon-hover animate__animated animate__backInLeft animate__delay-1s text-align-left">
+	 	     	<div class="text-center"><img src="img/b12.png" alt="#" class="img-fluid" style="width: 300px;height: 285px;"></div>
+	 	     	<h4 class="ml-5">Ahorro</h4>
+	 	     	<!-- <p class=""><span class=""><img src="img/dot2.png" alt="" class="img-fluid"></span> Ahorro de recursos como: combustibles, neumáticos, menor cantidad de vehículos, menor tiempo de RRHH, menor costo de limpieza y mantenimiento, menor recambio de contenedores.</p>
+	 	     	<p class=""><span class=""><img src="img/dot2.png" alt="" class="img-fluid"></span> Hasta un 40% de ahorro en activos.</p> -->
+	 	     	<ul class="pl-0">
+	 	     		<li><span class="text-white dot-red" style="line-height: 20px;">Ahorro de recursos como: combustibles, neumáticos, menor cantidad de vehículos, menor tiempo de RRHH, menor costo de limpieza y mantenimiento, menor recambio de contenedores.</li>
+	 	     		<li><span class="text-white dot-red">Hasta un 40% de ahorro en activos.</span></span></li>
+	 	     	</ul>
+	 	     </div>
+               <!-- Plataforma-three -->
+	 	     <div class="col-md-4 col-9 Plataforma-card px-4 mt-3 text-justify figure icon-hover animate__animated animate__backInRight animate__delay-1s">
+	 	     	<div class="text-center"><img src="img/b13.png" alt="#" class="img-fluid" style="width: 323.5px; height: 300px;"></div>
+	 	     	<h4 class="pb-1">Oportunidades</h4>
+	 	     	<p class=""><span class=""><img src="img/dot3.png" alt="" class="img-fluid"></span>  Modelo de inversión.</p>
+	 	     	<p class=""><span class=""><img src="img/dot3.png" alt="" class="img-fluid"></span>  Escala global.</p>
+	 	     	<p class=""><span class="mr-4"><img src="img/dot3.png" alt="" class="img-fluid"></span>  SmartCity.</p>
+	 	     </div>
+	 	</div>
+    </div>
+</section>
+<!-- *****************Panel de control y recolección ******************** -->
+<!-- <section class=" container mt-5">
+	<div class="row">
+		<div class="col-md-4 " style="border: 5px solid black;">
+			<div class="text-center">
+				<img src="img/b11.png" alt="" class="img-fluid" style="width: 286.2px; height: 286.2px;">
+			</div>
+			<h4 class="">Sustentabilidad</h4>
+	 	     	<p class=""><span class=""><img src="img/dot1.png" alt="" class="img-fluid"></span> Ciudades más limpias.</p>
+	 	     	<p class=""><span class=""><img src="img/dot1.png" alt="" class="img-fluid"></span> Mejor calidad de vida de los ciudadanos.</p>
+	 	     	<p class=""><span class=""><img src="img/dot1.png" alt="" class="img-fluid"></span> Menor impacto medioambiental.</p>
+		</div>
+		<div class="col-md-4" style="border: 5px solid black;">
+					<div class="text-center">
+						<img src="img/b11.png" alt="" class="img-fluid" style="width: 286.2px; height: 286.2px;">
+					</div>
+					<h4 class="">Sustentabilidad</h4>
+			 	     	<p class=""><span class=""><img src="img/dot1.png" alt="" class="img-fluid"></span> Ciudades más limpias.</p>
+			 	     	<p class=""><span class=""><img src="img/dot1.png" alt="" class="img-fluid"></span> Mejor calidad de vida de los ciudadanos.</p>
+			 	     	<p class=""><span class=""><img src="img/dot1.png" alt="" class="img-fluid"></span> Menor impacto medioambiental.</p>
+				</div>
+		<div class="col-md-4">
+					<div class="text-center">
+						<img src="img/b11.png" alt="" class="img-fluid" style="width: 286.2px; height: 286.2px;">
+					</div>
+					<h4 class="">Sustentabilidad</h4>
+			 	     	<p class=""><span class=""><img src="img/dot1.png" alt="" class="img-fluid"></span> Ciudades más limpias.</p>
+			 	     	<p class=""><span class=""><img src="img/dot1.png" alt="" class="img-fluid"></span> Mejor calidad de vida de los ciudadanos.</p>
+			 	     	<p class=""><span class=""><img src="img/dot1.png" alt="" class="img-fluid"></span> Menor impacto medioambiental.</p>
+				</div>
+
+	</div>
+</section>
+ -->
+
+
+
+<!-- *********************** -->
+
+
+
+<!-- *****************Panel de control y recolección****************** -->
+<section class="">
+<section class="Beneficios py-5" id="Dashboard" >
+	<!-- style="background-color: #F9F3FF;" -->
+	<div class="container panel">
+		<h1 class="" style="font-family: Urbanist;font-size: 44px;font-weight: 600;line-height: 55px;letter-spacing: 0.005em;text-align: left;">Panel de control y recolección <span class="color-txt1"> Smart</span></h1>
+		<p class="pt-2 pb-4" style="font-family: Inter;font-size: 17px;font-weight: 400;line-height: 27px;letter-spacing: 0em;text-align: left;">El panel de control permite administrar y monitorear los sensores creando un plan de recolección inteligente. </p>
+
+        <div class="beneficios-card" >
+        	<div class="row mx-0 px-0">
+        		<!-- 11111111 -->
+        		<div class="col-md-3 col-10">
+        			<div class="text-center pt-5"><img src="img/s1.png" alt="" class="img-fluid"></div>
+        			<div class="row pt-4">
+        				<div class="col-4 number px-0 "><img src="img/n1.png" alt="" class="img-fluid"></div>
+        				<div class="col-8 px-0 ">
+        					<h3 class="" style="">Sensores smart geolocalizados</h3>
+        				</div>
+        				<div class="pl-4">
+        					<p class="pl-4">Los sensores se instalan en los contenedores, miden los niveles de llenado y reportan en tiempo real.</p>
+        				</div>
+        			</div>
+        		</div>
+        		<!-- 22222222 -->
+        		<div class="col-md-3 col-10">
+        			<div class="text-center"><img src="img/s2.png" alt="" class="img-fluid"></div>
+        			<div class="row">
+        				<div class="col-4 number px-0"><img src="img/n2.png" alt="" class="img-fluid"></div>
+        				<div class="col-8 px-0">
+        					<h3 class="" style="">transmisión de <br> datos cloud</h3>
+        				</div>
+        				<div class="pl-4">
+        					<p class="pl-4">Los datos son almacenados en la nube y procesados por la plataforma.</p>
+        				</div>
+        			</div>
+        		</div>
+        		<!-- 33333333333 -->
+        		<div class="col-md-3 col-10">
+        			<div class="text-center"><img src="img/s3.png" alt="" class="img-fluid"></div>
+        			<div class="row">
+        				<div class="col-4 number px-0"><img src="img/n3.png" alt="" class="img-fluid"></div>
+        				<div class="col-8 px-0">
+        					<h3 class="" style="">dashboard + recolección mobile</h3>
+        				</div>
+        				<div class="pl-4">
+        					<p class="pl-4">El Dashboard administra y monitorea los sensores creando un plan de recolección inteligente.</p>
+        				</div>
+        			</div>
+        		</div>
+        		<!-- 4444444444 -->
+        		<div class="col-md-3 col-10">
+        			<div class="text-center"><img src="img/s4.png" alt="" class="img-fluid"></div>
+        		</div>
+        		<!-- <div class="col-md-3 mt-5">
+        			<img src="img/b5.png" alt="" class="img-fluid">
+        			<h3 class="py-3" style="font-weight: 500; font-size: 27px; line-height: 38px; letter-spacing: -0.01em; color: #293248;">Logística Inversa</h3>
+        			<p style="font-weight: 400; font-size: 18px; line-height: 30px;color: #7E7B82;">Los hubs permiten una manera simple de manejo de devoluciones de compras por e-commerce.</p>
+        		</div>
+        		<div class="col-md-3  mt-5">
+        			<img src="img/b6.png" alt="" class="img-fluid">
+        			<h3 class="py-3" style="font-weight: 500; font-size: 27px; line-height: 38px; letter-spacing: -0.01em; color: #293248;">Re-despachos</h3>
+        			<p style="font-weight: 400; font-size: 18px; line-height: 30px;color: #7E7B82;">El paso a través múltiples hubs en la ruta a un destino permiten llegar a todos lados de manera óptima, sin retrasos.</p>
+        		</div>
+        		<div class="col-md-3  mt-5">
+        			<img src="img/b7.png" alt="" class="img-fluid">
+        			<h3 class="py-3" style="font-weight: 500; font-size: 27px; line-height: 38px; letter-spacing: -0.01em; color: #293248;">Sucursales virtuales</h3>
+        			<p style="font-weight: 400; font-size: 18px; line-height: 30px;color: #7E7B82;">Hubs en distintas ciudades permiten tener “sucursales físicas” con ínfimos costos de operación.</p>
+        		</div>
+        		<div class="col-md-3  mt-5">
+        			<img src="img/b8.png" alt="" class="img-fluid">
+        			<h3 class="py-3" style="font-weight: 500; font-size: 27px; line-height: 38px; letter-spacing: -0.01em; color: #293248;">Transportes 1aN</h3>
+        			<p style="font-weight: 400; font-size: 18px; line-height: 30px;color: #7E7B82;">Desde un mismo hub, un transportista puede recoger distintos envíos y entregarlos en un mismo hub en su destino. Y viceversa.</p>
+        		</div> -->
+        	</div>
+        	<div class="row justify-content-center big-data">
+        		<div class="col-md-6">
+        			<div class="py-2">
+	        		<h3 class="text-center text-muted">Big Data + IoT + Dashboard + App Mobile</h3>
+	        		<!-- <i class="fad fa-usd-circle text-white"></i>
+	        		<i class="fas fa-tools"></i>
+	        		<i class="far fa-cog"></i>
+	        		<i class="far fa-alarm-clock"></i> -->
+        	</div>
+        		</div>
+        		<div class="col-md-4 icon-4">
+        			<img src="img/i1.png" alt="" class="img-fluid">
+        			<img src="img/i2.png" alt="" class="img-fluid px-3">
+        			<img src="img/i3.png" alt="" class="img-fluid">
+        			<img src="img/i4.png" alt="" class="img-fluid px-3">
+        		</div>
+        	</div>
+        	
+        </div>
+	</div>
+</section>
+
+<!-- ************************Características******************************** -->
+<section class="">
+<section class="Beneficios py-5" id="Caracter" >
+	<div class="container panel">
+		<h1 class="" style="font-family: Urbanist;font-size: 44px;font-weight: 600;letter-spacing: 0.005em;text-align: left;">Características </h1>
+
+        <div class="caract-sec" >
+        	<div class="row">
+        		<!-- 11111111 -->
+        		<div class="col-md-4 mt-3">
+        			<img src="img/c1.png" alt="" class="img-fluid">
+        			<h4 class="py-3" style="">Configuración</h4>
+        			<p style="">Es posible adaptar el sensor a cualquier tipo de contenedor y cualquier tipo de basura.</p>
+        		</div>
+        		<!-- 22222222 -->
+        		<div class="col-md-4 mt-3">
+        			<img src="img/c2.png" alt="" class="img-fluid">
+        			<h4 class="py-3">Notificaciones</h4>
+        			<p >El Panel de Control de estados permite ver en tiempo real lo que sucede.</p>
+        		</div>
+        		<!-- 33333333333 -->
+        		<div class="col-md-4 mt-3">
+        			<img src="img/c3.png" alt="" class="img-fluid">
+        			<h4 class="py-3">Geolocalización</h4>
+        			<p >Nuestra tecnología permite tener todos los sensores geolocalizados y online.</p>
+        		</div>
+        		<!-- 4444444444 -->
+        		<div class="col-md-4 mt-3">
+        			<img src="img/c4.png" alt="" class="img-fluid">
+        			<h4 class="py-3" >Recolección Smart</h4>
+        			<p >El software permite crear un plan de recolección inteligente planificando las rutas y optimizando los tiempos.</p>
+        		</div>
+        		<!-- 555555555 -->
+        		<div class="col-md-4  mt-3">
+        			<img src="img/c5.png" alt="" class="img-fluid">
+        			<h4 class="py-3" >Mediciones y Reportes</h4>
+        			<p >Gracias a los reportes e historial de cada contenedor es posible crear estrategias para implementar nuevas zonas o contenedores sociales.</p>
+        		</div>
+        		<!-- 666666666666 -->
+        		<div class="col-md-4  mt-3">
+        			<img src="img/c6.png" alt="" class="img-fluid">
+        			<h4 class="py-3" >Cloud y M2M</h4>
+        			<p>La plataforma utiliza tecnología basada en la nube y en loT, esto le permite expandirse sin importar la cantidad de sensores o contenedores que quiera instalar.</p>
+        		</div>
+        	</div>
+        	 
+        	
+        </div>
+	</div>
+</section>
+<!-- ********************tiempo-real************************* -->
+<!-- <section class="container py-5">
+	<div class="tiempo-real">
+		<div class="tiempo-real-heading text-center pb-3">
+			<h1>Monitoreo de residuos en <span class="color-txt1">tiempo-real</span></h1>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-5 tiempo-real-card text-center py-3">
+						<p class="text-muted">Detalle del <br> contenedor</p>
+						<img src="img/real.png" alt="" class="img-fluid" style="width: auto; height: 250px;">
+						<p class="">Sarmiento 1496, <br> Rosario, Santa Fe</p>
+					</div>
+					<div class="col-md-5 text-center">
+						<div class="tiempo-real-card py-4">
+							<p class="text-muted">Cantidad de alertas</p>
+						<img src="img/14.png" alt="" class="img-fluid py-2" style="width: auto; height: 70px;">
+						<p class="">Ver detalle <span class="" style="color: #00D1FF;"> ></span></p>
+						</div>
+						<div class="tiempo-real-card mt-5 py-4">
+							<p class="text-muted">Última actualización</p>
+						<img src="img/21_15.png" alt="" class="img-fluid" style="width: auto; height: 60px;">
+						<p class="pt-4">7/05/2023</p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="tiempo-real-card py-4">
+							<p class="text-muted">Última actualización</p>
+						<img src="img/22_05.png" alt="" class="img-fluid" style="width: auto; height: 60px;">
+						<p class="pt-4">10/05/2023</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="tiempo-real-card py-4">
+							<p class="text-muted">Nivel de llenado</p>
+						<img src="img/89%.png" alt="" class="img-fluid" style="width: auto; height: 60px;">
+						<p class="pt-4">Ver historial del día</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="tiempo-real-card py-4">
+							<p class="text-muted">Historial del estado</p>
+						<img src="img/real2.png" alt="" class="img-fluid" style="">
+						<p class="pt-4">Ver gráfico del historial</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section> -->
+
+<!-- ************************** -->
+<section class="container pt-5 pb-4" id="Monitoreo">
+	<div class="tiempo-real">
+		<div class="tiempo-real-heading text-center pb-5">
+			<h1>Monitoreo de residuos en <span class="color-txt1">tiempo-real</span></h1>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-3 col-10 mt-3 tiempo-real-card tiempo-real-card-container text-center pt-3 pb-0" style="width: auto; height: 450px; ">
+				<p class="text-muted mb-0 pt-2">Detalle del <br> contenedor</p>
+				<img src="img/real.png" alt="" class="img-fluid" style="width: auto; height: 300px;">
+				<!-- width: auto; height: 250px; -->
+				<p class="pb-0">Sarmiento 1496, <br> Rosario, Santa Fe</p>
+			</div>
+			<div class="col-md-9">
+				<div class="row justify-content-center">
+					<div class="col-md-4 col-10 mt-3">
+						<div class="tiempo-real-card tiempo-real-card-14 px-4">
+						<p class="text-muted">Cantidad de alertas</p>
+						<img src="img/14.png" alt="" class="img-fluid py-2" style="width: auto; height: 90px;">
+						<p class="pt-2">Ver detalle <span class="" style="color: #00D1FF;"> </span></p>
+					   </div>
+					</div>
+					<div class="col-md-4 col-10 mt-3">
+						<div class="tiempo-real-card tiempo-real-card-2205 px-4">
+							<p class="text-muted">Última actualización</p>
+						<img src="img/22_05.png" alt="" class="img-fluid" style="width: auto; height: 70px;">
+						<p class="pt-4">10/05/2023</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-10 mt-3">
+						<div class="tiempo-real-card  px-4">
+							<p class="text-muted">Nivel de llenado</p>
+						<img src="img/89%.png" alt="" class="img-fluid" style="width: auto; height: 70px;">
+						<p class="pt-4">Ver historial del día</p>
+						</div>
+					</div>	
+			   </div>
+			   <div class="row justify-content-center">
+					<div class="col-md-4 col-10 py-3 mt-3">
+						<div class="tiempo-real-card tiempo-real-card-2115 px-4">
+							<p class="text-muted">Última actualización</p>
+						<img src="img/21_15.png" alt="" class="img-fluid" style="width: auto; height: 70px;">
+						<p class="pt-4">7/05/2023</p>
+						</div>
+					</div>
+					<div class="col-md-8 col-10 py-3 mt-3">
+						<div class="tiempo-real-card px-4">
+							<p class="text-muted mb-0">Historial del estado</p>
+						<img src="img/real2.png" alt="" class="img-fluid" style="width: auto; height: 130px;">
+						<p class="">Ver gráfico del historial</p>
+						</div>
+					</div>	
+			   </div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- **************sensor******************** -->
+<section class="sensor" id="Sensor">
+	<div class="row justify-content-center">
+		<div class="col-md-8 col-10 px-0">
+			<img src="img/sensor.png" alt="" class="img-fluid sensor-img">
+		</div>
+		<div class="col-md-4 col-10 px-0">
+			<h1 class="sensor-heading">Sensor</h1>
+			<div class="sensor-txt">
+			    <p class=""><img src="img/sensor6.png" alt=""> Autonomía 2 años</p>
+			    <p class=""><img src="img/sensor6.png" alt=""> GPS Geolocalización</p>
+			    <p class=""><img src="img/sensor6.png" alt=""> Plug & Play</p>
+			    <p class=""><img src="img/sensor6.png" alt=""> Sistema Multicontenedor</p>
+			    <p class=""><img src="img/sensor6.png" alt=""> Tecnología IoT</p>
+			    <p class=""><img src="img/sensor6.png" alt=""> 4G/M2M</p>
+			</div>
+		</div>
+	</div>
+	<hr class="m-0" style="background: linear-gradient(90deg, rgba(22, 22, 72, 0) 0.03%, #33338B 29.65%, #33338B 70.32%, rgba(255, 255, 255, 0) 100%, rgba(22, 22, 72, 0) 100%);">
+</section>
+
+<!-- **************Una solución smart e integral de todo el proceso de ******************* -->
+<section class="box4" id="Negocio">
+	<div class="container">
+	<div class="row justify-content-around">
+		
+		<div class="col-md-4 col-10 px-0">
+			<h1 class="box4-heading">Una solución <br> smart e integral <br> de todo el proceso <br> de <span class="color-txt1">negocio.</span></h1>
+		</div>
+		<div class="col-md-8 col-10 px-0">
+			<img src="img/box4.png" alt="" class="img-fluid box4-img">
+		</div>
+	</div>
+</div>
+</section>
+
+</section>
+
+
+
+
+ <!-- footer section -->
+<section class="footer">
+	<div class="container text-center">
+		<div class="row justify-content-center py-4">
+   	   	   <div class="col-md-3" style="">
+	 	     	<span class="">
+	 	     		<!-- <img src="img/group.png" alt="" class="img-fluid pl-2"> -->
+                  <a href="##" class="text-decoration-none text-white hov">Copyright © 2023 Boxtronic</a>
+	 	     	</span>
+	 	    </div>
+	 	    <div class="col-md-3" style="">
+		        <span class=""><i class="fas fa-globe"></i>
+		          	<a href="##" class="text-decoration-none text-white"></i> boxtronic.net</a> 
+		        </span>	     
+	        </div>
+	        <div class="col-md-3" style="">
+		        <span class=""><i class="far fa-envelope"> </i>
+		          	<a href="##" class="text-decoration-none text-white">
+		          		 info@boxtronic.net</a> 
+		        </span>	     
+	        </div>
+	        
+	        <div class="col-md-3" style="">
+	          <span class="px-2"> <i class="fab fa-linkedin-square"></i> <a href="##" class="text-decoration-none text-white pl-5">  boxtronic-smart-waste </a>
+	          		     
+	        </div>
+ 	    </div>
+	</div>
+</section>
+
+
+
+<!-- js file link -->
+<!-- <script src="./js/main.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- <script type="text/javascript">
+	$(".counter").counterUp({delay:20,time:2000});
+</script> -->
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+<script>
+
+	$(document).ready(function(){
+    $(window).on('scroll', function(){
+        if($(window).scrollTop()>=650 && !$('#site-header').hasClass('fixed-top')){
+            $('#site-header').addClass('fixed-top');
+            $('#site-header').addClass('bgopacity');
+        }
+        else if($(window).scrollTop()<650 && $('#site-header').hasClass('fixed-top')){
+           $('#site-header').removeClass('fixed-top');
+		   $('#site-header').removeClass('bgopacity');
+
+           
+
+        }
+    });
+    var options = {
+        animateClass: 'animate__animated', // for v3 or 'animate__animated' for v4
+        animateThreshold: 100,
+        scrollPollInterval: 20
+    }
+    $('.home-section').AniView(options);
+// ***************************
+// (function() {
+//     // Add event listener
+//     document.addEventListener("mousemove", parallax);
+//     const elem = document.querySelector("#parallax");
+//     // Magic happens here
+//     function parallax(e) {
+//         let _w = window.innerWidth/2;
+//         let _h = window.innerHeight/2;
+//         let _mouseX = e.clientX;
+//         let _mouseY = e.clientY;
+//         let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
+//         let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
+//         let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
+//         let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+//         console.log(x);
+//         elem.style.backgroundPosition = x;
+//     }
+
+// })();
+
+// ****************************
+
+});
+
+</script>
+
+
+<!-- *********************** -->
+
+<script>
+var img = document.getElementById("move-image");
+
+img.addEventListener("mousemove", function(event) {
+  var x = event.clientX;
+  var y = event.clientY;
+  var offsetX = img.offsetLeft;
+  var offsetY = img.offsetTop;
+
+  var moveX = (x - offsetX - img.width/2) / -19;
+  var moveY = (y - offsetY - img.height/2) / -19;
+
+  img.style.transform = "translate(" + moveX + "px, " + moveY + "px)";
+});
+
+
+</script>
+
+</body>
+</html>
