@@ -13,7 +13,9 @@
   width: auto;
 }
 
-
+.big-data .icon-4{
+  padding-top: 30px !important;
+}
 
 
  }
@@ -37,8 +39,7 @@
 
 .big-data .icon-4{
     text-align: center;
-    padding-top: 20px !important;
-/*    padding-bottom: 20px;*/
+    padding-top: 30px !important;
 }
 
 
@@ -149,11 +150,12 @@ visibility: visible;
 
 .big-data h3{
     font-size: 16px;
+     padding-top: 20px;
 }
 
 .big-data .icon-4{
     text-align: center;
-    padding-top: 0px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -208,6 +210,16 @@ visibility: visible;
 .sensor-heading{
   padding-top: 0px;
 }
+
+.big-data .icon-4{
+    text-align: center;
+    padding-top: 10px !important;
+    padding-bottom: 20px;
+}
+
+
+
+
 
 
 
